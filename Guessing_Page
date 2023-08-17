@@ -1,8 +1,0 @@
-import random
-
-def guess_number(target):
-    while True:
-        guess = int(input("What is the number?: "))
-        if guess < target:
-            print("Increase")
-        
